@@ -1,0 +1,90 @@
+html{
+    height: 100vh;
+    color: #fff;
+    background: url("../img/voie-lactee-pleine-etoiles-dans-espace.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.box-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(0.5rem);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box-input{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+
+input{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: white 1px solid;
+    caret-color: #fff;
+    color: #fff;
+}
+input:focus{
+    outline: none;
+}
+
+.submit-button{
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    align-items: center;
+    margin: 1rem;
+}
+
+.icon{
+    max-width: 20px;
+    vertical-align: text-top;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.5);
+}
