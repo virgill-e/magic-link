@@ -8,6 +8,19 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 1439px){
+    html{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 2559px){
+    html{
+        font-size: 3rem;
+    }
 }
 
 h1{
@@ -58,7 +71,6 @@ input:focus{
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    font-size: 1rem;
     cursor: pointer;
     align-items: center;
     margin: 1rem;
@@ -87,4 +99,28 @@ a{
 
 ::-ms-input-placeholder { /* Microsoft Edge */
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*pop-up*/
+.pop-up{
+    /*display: none;*/
+    position: absolute;
+    top: calc(calc(100vh - 60vh) / 2);
+    left: calc(calc(100vw - 80vw) / 2);
+    width: 80vw;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.8rem);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.pop-up span{
+    margin: 10rem;
+    margin-bottom: 2rem;
 }

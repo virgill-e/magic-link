@@ -1,10 +1,32 @@
+- reflechir si faire le token dans models comme user ou pas ?
+    si oui supp MagicLink :)
+
+
+- connexion:
+        utiliser le token et 15 minute de durée de vie au token
+        garder la connexion en session
+
+- page bien connecté
+
+- envoyer les lien par mail pas uniquement via echo
+
+- captcha pour éviter le spam de mail
+
+:)
+
+
+
+
+
+
+
+
+
+
+
+
 Hasher les adresse mail
 
 A la connexion le user renseigne son mail donc peut être comparer via le hash
 
-CONEXION:
-	mail, nom, prenom
-
-
-C'est beau
-https://www.youtube.com/watch?v=1H-vSHVOxoU
+créer des objet pour stocker les données des requete sql (pdo)
